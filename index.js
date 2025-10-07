@@ -1,4 +1,4 @@
-requestAnimationFrame('dotenv').config()
+require('dotenv').config()
 const http= require('http')
 
 function requestController(){
