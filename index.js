@@ -2,7 +2,7 @@ require('dotenv').config();
 const http = require('http');
 
 function requestController(){
-    console.log('Bienvenidos al curso')
+    console.log('Base de datos lista para usar')
 }
 
 const server = http.createServer(requestController);
